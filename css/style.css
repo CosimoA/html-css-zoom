@@ -9,6 +9,7 @@ body{
     height: 100vh;
 }
 
+/* Header */
 header {
     position: fixed;
     width: 100%;
@@ -29,5 +30,41 @@ header div{
     justify-content: flex-end;
     align-items: center;
     height: 100%;
+}
+
+/* Main */
+main{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 100%;
+    padding: 90px 0 200px;
+    overflow-y: auto;
+}
+
+.grid{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.user-view{
+    position: relative;
+    height: 170px;
+    margin: 10px 5px;
+}
+
+.user-view img{
+    height: 170px;
+}
+
+.label-name{
+    background-color: #4a4a4a94;
+    padding: 4px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
 }
 
