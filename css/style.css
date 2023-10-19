@@ -38,7 +38,7 @@ main{
     justify-content: center;
     background-color: black;
     height: 100%;
-    padding: 90px 0 200px;
+    padding: 70px 0 200px;
     overflow-y: auto;
 }
 
@@ -66,5 +66,56 @@ main{
     position: absolute;
     bottom: 0;
     z-index: 1;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #222222;
+    z-index: 500;
+}
+
+.controls{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    margin: 5px 20px;
+    font-size: 30px;
+}
+
+.controls span{
+    padding: 15px;
+}
+
+#color-green{
+    color: green;
+}
+
+
+.quit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a4a4a;
+    height: 80px;
+}
+
+.quit span{
+    color: red;
+    padding: 10px;
 }
 
